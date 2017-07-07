@@ -1,0 +1,19 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav a {
+    color: #000;
+}
+nav, .side-nav {
+    box-shadow: none;
+}
+
+.name{
+	color: blue;
+}
