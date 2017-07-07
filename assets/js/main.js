@@ -49,10 +49,10 @@ $(document).ready(function() {
 							<div class="col l12">
 								<h6>Tipo : </h6>
 								<div class="row">
-									<div class="color">
+									<div class="col l6 color">
 										<h6>Algo</h6>
 									</div>
-									<div class="color">
+									<div class="col l6 color">
 										<h6>Otro</h6>
 									</div>
 								</div>
@@ -62,7 +62,7 @@ $(document).ready(function() {
 							<div class="col l12">
 								<h6>Debilidad : </h6>
 								<div class="row">
-									<div class="color">
+									<div class="col l6 color">
 										<h6>Algo</h6>
 									</div>
 								</div>
