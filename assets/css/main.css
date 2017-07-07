@@ -14,6 +14,41 @@ nav, .side-nav {
     box-shadow: none;
 }
 
+.caja-poke{
+	margin: 30px 0;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	background-color: #E3E3E3;
+	border-radius: 20px;	
+}
+
 .name{
 	color: blue;
+}
+
+
+.pie-foto{
+	position: relative;
+    bottom: 30px;
+    width: 100%;
+    height: 53px;
+    margin: -42px 0 0 0;
+    background: transparent url(../img/base-simb.png) center top no-repeat;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    z-index: 1000;
+}
+
+.colection-iconos{
+	display: inline-flex;
+	padding-top: 10px;
+}
+
+.colection-iconos img{
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
 }
