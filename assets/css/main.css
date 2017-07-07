@@ -3,16 +3,21 @@
 	padding: 0 auto;
 }
 
+/*--------- HEADER ---------*/
+
 nav {
     background-color: transparent;
 }
 
 nav a {
     color: #000;
+    font-size: 30px;
 }
 nav, .side-nav {
     box-shadow: none;
 }
+
+/*--------- POKEMONES ---------*/
 
 .caja-poke{
 	margin: 30px 0;
@@ -26,7 +31,7 @@ nav, .side-nav {
 }
 
 .name{
-	color: blue;
+	color: black;
 }
 
 
@@ -51,4 +56,13 @@ nav, .side-nav {
 	margin: 0 5px;
 	width: 20px;
 	height: 20px;
+}
+
+
+/*--------- MODAL ---------*/
+.color{
+	background-color: #7F7F7F;
+	padding: 5px;
+	color: white;
+    margin: 5px 0;
 }

@@ -43,8 +43,31 @@ $(document).ready(function() {
 						<img class='fondo-img caja' src='`+ linkImg + id + `.png'>
 					</div>
 					<div class="col l6">
-						<h1 id="nombre-pokemon-m">` + nombre + `</h1>
+						<h2 id="nombre-pokemon-m">` + nombre + `</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex, qui excepturi nisi, veniam laborum tempore, odio sequi minus accusamus a at modi delectus repellendus, soluta numquam alias perspiciatis quibusdam.</p>
+						<div class="row">
+							<div class="col l12">
+								<h6>Tipo : </h6>
+								<div class="row">
+									<div class="color">
+										<h6>Algo</h6>
+									</div>
+									<div class="color">
+										<h6>Otro</h6>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col l12">
+								<h6>Debilidad : </h6>
+								<div class="row">
+									<div class="color">
+										<h6>Algo</h6>
+									</div>
+								</div>
+							</div>
+						</div>							
 					</div>				
 				</div>
 			</div>
@@ -54,6 +77,19 @@ $(document).ready(function() {
 	};
 
 
+		/*
+			$(".btn-poke-modal").click(function(){
+				console.log("hola");	
+				var apiPo = "http://pokeapi.co/api/v2/pokemon-species/1/";
+
+				$.ajax({
+					url: apiPo + "pokemon/" 
+				})
+				.done(function(response){
+					$("#nombre-pokemon-m").html(response.name);
+				})
+			});
+		*/
 
 	var ajaxPoke = function(name){
 
@@ -81,6 +117,13 @@ $(document).ready(function() {
 			pokemonDetalle(response);
 		})		
 	}
+
+	/*
+		La idea es poder llamar las Api y generar solo una base para todos todos los pokemones.
+		No pude realizar que me reconociera el id en una function fuera, lo dejo comentado. 
+		teniendo el id podia generar el Modal desde index.html y no repetirlo para que demore tanto en la carga
+		La segunda Api tampoco pude llamar colores 
+	*/
 
 
 	$(window).load(function() {
